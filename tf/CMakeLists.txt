@@ -13,6 +13,8 @@ else()
   endif()
 endif()
 
+add_compile_options(-std=c++17)
+
 find_package(catkin REQUIRED COMPONENTS
     angles
     geometry_msgs
